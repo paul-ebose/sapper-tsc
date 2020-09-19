@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2015",
+    "module": "es2015",
+    "lib": ["esnext", "dom", "webworker"],
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "types": ["svelte", "node", "@sapper"],
+    "typeRoots": ["typings"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"]
+}
